@@ -1,0 +1,5 @@
+﻿  Name.cpp
+  NameTest.cpp
+C:\Users\sangr\source\repos\NameTest\NameTest\NameTest.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  NameTest.vcxproj -> C:\Users\sangr\source\repos\NameTest\Debug\NameTest.exe

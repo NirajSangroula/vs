@@ -1,0 +1,55 @@
+﻿COMMENT !
+Author: Niraj Sangroula
+Student ID: 219586770
+Lab 1, Part 1
+Any and all work in this file is my own.
+!
+
+INCLUDE Irvine32.inc
+
+
+PBYTE TYPEDEF PTR BYTE
+
+.data
+; declare variables here
+b1 BYTE 1, 2
+ALIGN 4
+b2 BYTE 2
+ALIGN 4
+b3 WORD 3
+ALIGN 4
+b4 DWORD 4
+
+ptrb1 PBYTE b1
+.code
+
+COMMENT !
+Multiplies contents of EAX and EBX and stores the results back in EAX
+!
+multiply PROC USES EBX
+MOV ECX, EBX
+MOV EBX, 0
+l1:
+ADD EBX, EAX
+LOOP l1
+MOV EAX, EBX
+ret
+multiply ENDP
+main PROC
+MOV EAX, 0103faceh
+PUSH EAX
+POP EBX
+PUSHFD
+POP EAX
+PUSH EAX
+POPFD
+PUSHAD
+POPAD
+
+MOV EAX, 6
+MOV EBX, 9
+call multiply
+call WriteInt
+EXIT
+main ENDP
+END main

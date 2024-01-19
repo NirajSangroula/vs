@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdvancedStringANDArrays", "AdvancedStringANDArrays\AdvancedStringANDArrays.vcxproj", "{8614AE76-614A-455A-9FEE-A61CDFA3131D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8614AE76-614A-455A-9FEE-A61CDFA3131D}.Debug|x64.ActiveCfg = Debug|x64
+		{8614AE76-614A-455A-9FEE-A61CDFA3131D}.Debug|x64.Build.0 = Debug|x64
+		{8614AE76-614A-455A-9FEE-A61CDFA3131D}.Debug|x86.ActiveCfg = Debug|Win32
+		{8614AE76-614A-455A-9FEE-A61CDFA3131D}.Debug|x86.Build.0 = Debug|Win32
+		{8614AE76-614A-455A-9FEE-A61CDFA3131D}.Release|x64.ActiveCfg = Release|x64
+		{8614AE76-614A-455A-9FEE-A61CDFA3131D}.Release|x64.Build.0 = Release|x64
+		{8614AE76-614A-455A-9FEE-A61CDFA3131D}.Release|x86.ActiveCfg = Release|Win32
+		{8614AE76-614A-455A-9FEE-A61CDFA3131D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0545018-81B2-47A1-9527-E8D45D7E40E2}
+	EndGlobalSection
+EndGlobal

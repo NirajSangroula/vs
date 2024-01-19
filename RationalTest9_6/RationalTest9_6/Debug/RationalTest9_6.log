@@ -1,0 +1,3 @@
+﻿  Rational.cpp
+C:\Users\sangr\source\repos\RationalTest9_6\RationalTest9_6\Rational.cpp(77): warning C4715: 'Rational::getHCF': not all control paths return a value
+  RationalTest9_6.vcxproj -> C:\Users\sangr\source\repos\RationalTest9_6\Debug\RationalTest9_6.exe

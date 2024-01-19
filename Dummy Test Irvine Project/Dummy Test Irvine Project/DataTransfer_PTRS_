@@ -1,0 +1,40 @@
+COMMENT !
+Author: Niraj Sangroula
+Student ID : 219586770
+Lab 1, Part 1
+Any and all work in this file is my own.
+!
+
+INCLUDE Irvine32.inc
+
+
+PBYTE TYPEDEF PTR BYTE
+
+.data
+; declare variables here
+b1 BYTE 1, 2
+ALIGN 4
+b2 BYTE 2
+ALIGN 4
+b3 WORD 3
+ALIGN 4
+b4 DWORD 4
+
+ptrb1 PBYTE b1
+.code
+main PROC
+MOV EAX, 0103faceh
+MOV EBX, -1
+MOVSX ECX, BL
+MOVZX EDX, BL
+MOV EBX, OFFSET b1
+MOV EBX, OFFSET b2
+MOV EBX, OFFSET b3
+MOV EBX, OFFSET b4
+MOV ESI, ptrb1
+MOV ah, [esi]
+; Loading flags in Acc
+SAHF
+EXIT
+main ENDP
+END main
